@@ -16,8 +16,10 @@
                    <strong>Dia de Subastas: </strong> 10/07/2018
                 </div>
                 <div class="modelPriceCar">
-                    <span>Ganó: Toyota Yaris 2015</span> |
-                    <span>Precio Venta: US$ 8.500</span>
+                    <span class="carTitle">Ganó: </span>
+                    <span class="carContent">Toyota Yaris 2015 Toyota Yaris 2015 Toyota Yaris 2015 </span> 
+                    <span class="priceTitle">Precio: </span>
+                    <span class=priceContent>US$ 1.000.500</span>
                 </div>
                 <div class="avatar">
                     <img src="src/img/2.png" alt="">
@@ -25,7 +27,7 @@
                 <div class="bubble">
                     <div class="content">
                         <div class="testimonial">
-                            <span>Estoy muy satisfecho con esta subasta.</span>
+                            <span>Estoy muy satisfecho con esta subasta Estoy muy satisfecho con esta subasta.</span>
                         </div>
                         <div class="nick">
                             <span>Seudónimo: ENR6GX</span>
@@ -35,5 +37,11 @@
         </div>
         <div class="car" style="background-image: url('src/img/11.png')"></div>
     </div>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script type="text/javascript">
+        html2canvas(document.querySelector(".container")).then(canvas => {
+            document.body.appendChild(canvas)
+        });
+    </script>
 </body>
 </html>
